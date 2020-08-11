@@ -8,28 +8,42 @@
 .section-hero{
     background-image: url(./img/header-bg.jpg);
     height: 100vh;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
 }
-.section-hero__inner-container{
-height: 100vh;
-position: relative;
-}
-.section-hero__text-container{
-    position: absolute;
-top: 20%;
-
-}
-
 
 .text-lvl-hero{
-
-
-    color: #fff;
-    font-size: 62px;
-    font-weight: 100vh;
+    font-size: 63px;
+    color: white;
+    margin-top: 0%;
+  margin-left:1px;
+  
+   
 }
+
+.text-lvl-secondary {
+    font-weight: 600;
+  }
+  
+  .text-lvl-quaternary {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+.section-hero__inner-containerr{
+    position: relative;
+    font-weight: 600;
+   
+
+    
+}
+
+
+
+
 /* --------------------------------- bottom --------------------------------- */
 
 
@@ -37,18 +51,75 @@ top: 20%;
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    transition: ease all 0.5s;
+    transition: ease all 0.9s;
+    
 }
-.button-white{
+.button--white{
     margin-top: 50px;
     padding: 10px 40px;
-    border: 1px solid #ff0;
     border-radius: 30px;
-    color:rgb(0, 0, 0);
+    color:black;
+    border: 1px solid white;
     background-color: white;
   }
+
+/* !------------------------------ SECTION BUTTON  ------------------------------ */
+.button:hover{
+    text-decoration: none;
+
+  }
+.button--white:hover{
+    background:transparent;
+    border: 12px;
+    color:white;
+    border: 1px solid white;
 }
-/* -------------------------------- bottom ------------------------------- */
+/* !------------------------------ !SECTION BUTTON  ------------------------------ */
+
+/* --------------------------- SECTION VIDEO START -------------------------- */
+.section-video__image-container{
+
+background-image:linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.719)), url(./img/video-bg.jpg);
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 60vh ;
+border-radius: 10px;
+padding:10px;
 
 
-/* !---------------------------- !section utilities --------------------------- */
+}
+
+/* ---------------------------- !SECTION VIDEO END --------------------------- */
+
+/* ------------------------------ SECTION MENU ------------------------------ */
+.section-menu{
+padding:100px 0;
+background-image: url(./img/menu-bg.jpg);
+
+}
+.menu-card{
+padding: 20px;
+margin: 15px,0;
+background-color: red;
+border-radius: 15px;
+-webkit-box-shadow: 0px 0px 22px 5px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 0px 22px 5px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 0px 22px 5px rgba(0, 0, 0, 0.36);
+}
+/* ------------------------------!SECTION MENU ------------------------------ */
+
+
+section-gallery{
+padding: 10px,0;
+
+}
+.section-gallery__image-container {
+  margin-top: 30px;
+}
+
+
+
+
+
