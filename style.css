@@ -1,0 +1,54 @@
+::selection {
+    background-color: #be9a5b;
+    color: #fff;
+}
+
+/* !----------------------------!section utilities --------------------------- */
+
+.section-hero{
+    background-image: url(./img/header-bg.jpg);
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-hero__inner-container{
+height: 100vh;
+position: relative;
+}
+.section-hero__text-container{
+    position: absolute;
+top: 20%;
+
+}
+
+
+.text-lvl-hero{
+
+
+    color: #fff;
+    font-size: 62px;
+    font-weight: 100vh;
+}
+/* --------------------------------- bottom --------------------------------- */
+
+
+.button{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: ease all 0.5s;
+}
+.button-white{
+    margin-top: 50px;
+    padding: 10px 40px;
+    border: 1px solid #ff0;
+    border-radius: 30px;
+    color:rgb(0, 0, 0);
+    background-color: white;
+  }
+}
+/* -------------------------------- bottom ------------------------------- */
+
+
+/* !---------------------------- !section utilities --------------------------- */
